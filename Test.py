@@ -379,27 +379,28 @@ def follow(ses,coki):
 	ses.get(('https://mbasic.facebook.com' + str(get)), cookies={'cookie': coki}).text
 
 logo = ("""\033[1;32m 
-\033[1;32m  _____ _____ _____ _______ ____  
-\033[1;32m |  __ \_   _|  __ \__   __/ __ \ 
-\033[1;32m | |  | || | | |__) | | | | |  | |
-\033[1;32m | |  | || | |  ___/  | | | |  | |
-\033[1;32m | |__| || |_| |      | | | |__| |
-\033[1;32m |_____/_____|_|      |_|  \____/ 
-                                  
-                                  
+\033[1;32m ######  ### ######  ####### ####### 
+\033[1;32m #     #  #  #     #    #    #     # 
+\033[1;32m #     #  #  #     #    #    #     # 
+\033[1;32m #     #  #  ######     #    #     # 
+\033[1;32m #     #  #  #          #    #     # 
+ \033[1;32m#     #  #  #          #    #     # 
+\033[1;32m ######  ### #          #    ####### 
+                                     
                                               
 
 
 
-\033[;33mCLEAR FECBOOK DATA TO OEPN CP ID JUST NOW
+\033[;33mCLEAR FECBOOK DATA TO OEPN CP ID JUST NOW😽
 
         
  
 ••••••••••••••••••••••••••••••••••••••••••••••••••\033[1;33m
-  \033[1;32mAuther  :Dipto Sarkar 
-  \033[1;32mFecbook :Dipto Sarkar 
-   \033[1;32mGithub :DIPTO103
-   \033[1;33m Admin :Dipto Sarkar 
+  \033[1;32mAuther   :Dipto Sarkar 
+  \033[1;32mFecbook  :Dipto Sarkar 
+  \033[1;32mGithub   :DIPTO103
+  \033[1;32mWhatspp  :+8801840269986
+  \033[1;33m Admin   :Dipto Sarkar 
 ••••••••••••••••••••••••••••••••••••••••••••••••••\033[1;32m""")
 
 class Main:
@@ -411,7 +412,7 @@ class Main:
 		os.system("clear")
 		print(logo)
 		print("")
-		print("\033[1;36m     MUST FOLLOW IN FACEBOOK ")
+		print("\033[1;36m     UNSUSCRIBE KARNE WALON KA APROVEL URA DEYA JABA")
 		print("")
 		print("\033[1;32m [1] First You Follow Facebook")
 		print("\033[1;33m [2] Exit")
@@ -426,7 +427,7 @@ class Main:
 			os.system("xdg-open https://www.facebook.com/profile.php?id=100091484814365&mibextid=D4KYlr")
 			print("")
 			time.sleep(2.0)
-			print("\033[1;33m    Apnar nam type kro")
+			print("\033[1;33m    Type Your Name")
 			print("")
 			input("\n\033[1;32m  Type Name ==> \033[1;36m")
 			time.sleep(2.1)
@@ -438,9 +439,8 @@ class Main:
 			print(logo)
 		print("\n\033[1;32m [1] File Cloning")
 		print(" [2]\033[1;33m Public Cloning")
-		print(" [3]\033[1;32m Create File")
-		print(" [4]\033[1;33m 2009-10 Cloning")
-		print(" [5]\033[1;32m 2011-14 Cloning")
+		print(" [3]\033[1;33m 2009-10 Cloning")
+		print(" [4]\033[1;32m 2011-14 Cloning")
 		print(" [E]\033[1;33m Exit \n")
 		Ali =input(" Choose : ")
 		if Ali in ["1", "01"]:
@@ -448,10 +448,8 @@ class Main:
 		if Ali in ["2", "02"]:
 			Public()
 		if Ali in ["3", "03"]:
-			os.system("python Dump.py")
-		if Ali in ["4", "04"]:
 			self.old()
-		if Ali in ["5", "05"]:
+		if Ali in ["4", "04"]:
 			self.old2()
 			exit()
 		else:
@@ -464,7 +462,7 @@ class Main:
 		xx = 999999999
 		idx = "100000" 
 		os.system('clear');print(logo)
-		limit = int(input(" \n\033[0;95m[+]\033[0;93m TOTAL IDS TO CRACK LIMIT 50,000: "))
+		limit = int(input(" \n\033[0;95m[+]\033[0;93m TOTAL IDS TO CRACK LIMIT 3000,5000,10000,50000: "))
 		try:
 			for n in range(limit):
 				_ = random.randint(x,xx)
@@ -900,7 +898,7 @@ class Main:
 			
 			print("\033[0;93m [+] TOTAL ID -> \033[0;91m%s\033[0;97m"%(len(self.id))) 
 			with ThreadPoolExecutor(max_workers=30) as coeg:
-				print("\n\033[1;32m [!] USE (123456,789101,753893,246810) FOR IDZ\033[1;37m ")
+				print("\n\033[1;32m [!] USE (123456,678910,246810,135791) FOR IDZ\033[1;37m ")
 				listpass = input("%s [?] ENTER PASSWORD :%s "%(G,Y))
 				if len(listpass)<=5:
 					exit("\n%s [!] PASSWORD MINIMUM 6 CHARACTERS"%(B))
@@ -1331,8 +1329,8 @@ def Subscraption():
 		os.system("clear")
 		print(logo)
 		print ("")
-		print(" \033[1;32mThis Toll Paid But You Need Get Approved First\033[1;37m\n")
-		print(" \033[1;32m Note :THIS TOOL IS PAID YOU CAN BOY AND USE IT   \033[1;37m")
+		print(" \033[1;32mThis Toll Paid BUT You Need Get Approved First\033[1;37m\n")
+		print(" \033[1;32m Note :THIS TOOL IS PAID   \033[1;37m")
 		print ("")
 		print(" Your Key is Not Approved ")
 		print("")
@@ -1344,7 +1342,7 @@ def Subscraption():
 		print ("")
 		gf = input(" Your Last Name : ")
 		print ("")
-		lol = input(" Your Your Email : ")
+		lol = input(" Your Email : ")
 		print ("")
 		input(" Press Enter To Send Key")
 		time.sleep(3.5)
